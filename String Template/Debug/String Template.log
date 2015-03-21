@@ -1,0 +1,25 @@
+﻿生成启动时间为 2015/3/21 13:32:28。
+     1>项目“F:\School\Programing\C++ Programing\String Template\String Template\String Template.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\school\programing\c++ programing\string template\string template\main.cpp(114): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+                 f:\school\programing\c++ programing\string template\string template\main.cpp(108): 编译类 模板 成员函数“void String<char>::Srep::assign(int,const C *)”时
+                 with
+                 [
+                     C=char
+                 ]
+                 f:\school\programing\c++ programing\string template\string template\main.cpp(43): 参见对正在编译的函数 模板 实例化“void String<char>::Srep::assign(int,const C *)”的引用
+                 with
+                 [
+                     C=char
+                 ]
+                 f:\school\programing\c++ programing\string template\string template\main.cpp(36): 参见对正在编译的类 模板 实例化“String<char>::Srep”的引用
+                 f:\school\programing\c++ programing\string template\string template\main.cpp(35): 编译类 模板 成员函数“std::ostream &operator <<(std::ostream &,const String<char> &)”时
+                 f:\school\programing\c++ programing\string template\string template\main.cpp(162): 参见对正在编译的类 模板 实例化“String<char>”的引用
+     1>已完成生成项目“F:\School\Programing\C++ Programing\String Template\String Template\String Template.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.00
